@@ -1,8 +1,8 @@
 <?php
 
 	// MailChimp
-	$APIKey = '53bb3bcad3947b9c5b45884b439097f4-us3';
-	$listID = 'fd1b8baf3f';
+	$APIKey = 'f37c8b2088b54fadd8c1a1535';
+	$listID = '3d52e2463e';
 
 	$email   = $_POST['email'];
 
