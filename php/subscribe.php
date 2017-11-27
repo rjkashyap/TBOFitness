@@ -17,7 +17,7 @@
 		$message = '<div class="alert alert-success subscription-success" role="alert"><strong>Success!</strong> Check your email to confirm sign up.</div>';
 	} else {
 		$sendstatus = 0;
-		$message = '<div class="alert alert-danger subscription-error" role="alert"><strong>Error:</strong> ' . $api->errorMessage.'</div>';
+		$message = '<div class="alert alert-danger subscription-error" role="alert"><strong>Error during subscription:</strong> ' . $api->errorMessage.'</div>';
 	}
 
 	$result = array(
